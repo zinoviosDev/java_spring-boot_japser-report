@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.20.1.final using JasperReports Library version 6.20.1-7584acb244139816654f64e2fd57a00d3e31921e  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape_1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" uuid="cb94b4ca-f40d-4269-9541-a992393b9262">
-	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Blank_A4_Landscape_1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" whenResourceMissingType="Empty" uuid="cb94b4ca-f40d-4269-9541-a992393b9262">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Transactions Data Adapter"/>
 	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="621"/>
 	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="365"/>
+	<property name="net.sf.jasperreports.export.docx.embed.fonts" value="true"/>
+	<property name="net.sf.jasperreports.export.xls.font.size.fix.enabled" value="true"/>
+	<property name="net.sf.jasperreports.awt.ignore.missing.font" value="false"/>
 	<style name="Title" mode="Opaque" forecolor="#FFFFFF" backcolor="#514C6E" fontSize="50" isBold="false"/>
 	<subDataset name="loanRepaymentHistoryData" uuid="1ed43f20-b075-4825-bb40-941c03926edd">
 		<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
@@ -470,7 +473,7 @@
 					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#EEEEEE"/>
 				</box>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font size="8"/>
+					<font fontName="Carnivalee Freakshow" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{site}]]></textFieldExpression>
 			</textField>
